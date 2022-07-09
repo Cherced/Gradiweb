@@ -8,7 +8,7 @@ export async function getProducts() {
             }
         });
         if (res.status !== 200) throw new Error(res.statusText)
-        const data = await res.json()
+        const data = res.json()
         console.log(data)
         return data
 
@@ -22,7 +22,7 @@ export async function getShoes() {
     try {
         const res = await fetch('https://api.escuelajs.co/api/v1/categories/4/products')
         if (res.status !== 200) throw new Error(res.statusText)
-        const data = await res.json()
+        const data = res.json()
         console.log(data)
         return data
 

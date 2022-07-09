@@ -8,7 +8,7 @@ export async function getProducts() {
             }
         });
         if (res.status !== 200) throw new Error(res.statusText)
-        const data = await res.json()
+        const data = res.json()
         console.log(data)
         return data
 
