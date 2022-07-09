@@ -1,0 +1,10 @@
+@import '../atoms/header/navBar';
+@import '../atoms/header/searchBar';
+
+header {
+    padding-top: 20px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
