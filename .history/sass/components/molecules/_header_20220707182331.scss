@@ -1,0 +1,14 @@
+@import '../atoms/header/navBar';
+@import '../atoms/header/searchBar';
+
+header {
+    width: 100%;
+    height: 70px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,42 @@
+
+  footer .contact {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding-block-start: 15px;
+}
+
+ footer .footer-media {
+     display: flex;
+     justify-content: center;
+ }
+
+ footer .footer-media a {
+     padding: 0 10px;
+ }
+
+.footer-media .facebook{
+    width: 35px;
+    height: 35px;
+    background-image: url('./imgs/face.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-media .instagram{
+    width: 35px;
+    height: 35px;
+    background-image: url('./imgs/inst.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-media .twitter{
+    width: 35px;
+    height: 35px;
+    background-image: url('./imgs/twi.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

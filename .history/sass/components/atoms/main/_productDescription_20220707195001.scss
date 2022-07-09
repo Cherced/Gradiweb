@@ -1,0 +1,74 @@
+.pinky-background {
+    width: 45vw;
+    height: 200vh;
+    background: $pinky-red;
+    position: absolute;
+    z-index: 0;
+    box-shadow:0 1px 6px 0 black;
+    top: 0;
+    right: -250px;
+    transform: skew(7deg);
+}
+
+
+.main-product-container {
+    width: 250px;
+    height: auto;
+    display: flex;
+    margin-block-start: 80px;
+    margin-inline-start: 40px;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.main-product-container .main-price {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.main-product-container .main-title {
+    color: var(--light-green);
+    font-size: 3.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-product-container .main-title span {
+    color: white;
+    font-weight: bold;
+}
+
+.main-product-description {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+
+.main-product-description p {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-inline-start: 10px;
+}
+
+.main-product-container .star-icon {
+    background-image: url('./icons/star.png');
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-product-container .main-rank {
+    margin-block-start: 10px;
+    margin-bottom: 10px;
+}
+
+.main-product-container a:hover {
+    box-shadow: 0 0 8px 0 whitesmoke;
+    border-color: #dfe1e500;
+}

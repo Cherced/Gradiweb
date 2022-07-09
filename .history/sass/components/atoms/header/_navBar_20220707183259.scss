@@ -1,0 +1,14 @@
+.navBar__container{
+    display: flex;
+    width: 50%;
+    .navBar__container--image{
+        margin-left: 20px;
+        width: 50px;
+    }
+    .header__nav{
+        width: 80%;
+        .header__nav--list{
+            display: flex;
+        }
+    }
+}

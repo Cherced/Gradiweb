@@ -1,0 +1,17 @@
+$pinky-red: #FF6F73;
+$dark-blue: #063440;
+$ligth-green: #00CFB3;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--dark-blue);
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+}

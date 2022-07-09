@@ -1,0 +1,38 @@
+@import '../atoms/main/productContainer';
+@import '../atoms/main/productDescription';
+
+main {
+    width: 100%;
+    display: flex;
+    .main__description--container{
+        width: 250px;
+        height: auto;
+        display: flex;
+        margin-block-start: 80px;
+        margin-inline-start: 40px;
+        flex-direction: column;
+        margin-bottom: 70px;
+        .pinky-background {
+            width: 45vw;
+            height: 200vh;
+            background: $pinky-red;
+            position: absolute;
+            z-index: 0;
+            box-shadow:0 1px 6px 0 black;
+            top: 0;
+            right: -250px;
+            transform: skew(7deg);
+        }
+    }
+    .main__product--container{
+        width: 100%;
+        min-height: 320px;
+        text-align: center;
+        position: relative;
+        z-index: 3;
+    }
+    .main__carrousel--container{
+
+    }
+}
+

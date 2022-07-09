@@ -1,0 +1,28 @@
+@import '../atoms/main/productContainer';
+@import '../atoms/main/productDescription';
+
+main {
+    width: 100%;
+    display: flex;
+    .main__description--container{
+        width: 250px;
+        height: auto;
+        display: flex;
+        margin-block-start: 80px;
+        margin-inline-start: 40px;
+        flex-direction: column;
+        margin-bottom: 70px;
+        
+    }
+    .main__product--container{
+        width: 100%;
+        min-height: 320px;
+        text-align: center;
+        position: relative;
+        z-index: 3;
+    }
+    .main__carrousel--container{
+
+    }
+}
+

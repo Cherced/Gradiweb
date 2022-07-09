@@ -1,0 +1,118 @@
+.pinky-background {
+        width: 45vw;
+        height: 200vh;
+        background: $pinky-red;
+        position: absolute;
+        z-index: 0;
+        box-shadow:0 1px 6px 0 black;
+        top: 0;
+        right: -250px;
+        transform: skew(7deg);
+    }
+
+
+    .main-product-container {
+        width: 250px;
+        height: auto;
+        display: flex;
+        margin-block-start: 80px;
+        margin-inline-start: 40px;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    
+    .main-product-container .main-price {
+        color: white;
+        font-size: 2.5rem;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    .main-product-container .main-title {
+        color: $ligth-green;
+        font-size: 3.5rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .main-product-container .main-title span {
+        color: white;
+        font-weight: bold;
+    }
+    
+    .main-product-description {
+        margin-block-start: 10px;
+        margin-block-end: 10px;
+    }
+    
+    
+    .main-product-description p {
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        margin-inline-start: 10px;
+    }
+    
+    .main-product-container .star-icon {
+        background-image: url('../../../../public/images/icons/star.png');
+        margin-right: 10px;
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .main-product-container .main-rank {
+        margin-block-start: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .main-product-container a:hover {
+        box-shadow: 0 0 8px 0 whitesmoke;
+        border-color: #dfe1e500;
+    }
+    .main-product-container a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        width: 250px;
+        height: 32px;
+        background-color: var(--pinky-red);
+        border-radius: 35px;
+        border: none;
+        outline: none;
+        text-align: center;
+        padding-block-start: 13px;
+    }
+    
+    .main-product-container .main-title, .main-product-container .main-price, .main-product-container .main-rank  {
+        margin-inline-start: 10px;
+    }
+    
+    .main-product-picture {
+        width: 650px;
+        height: 650px;
+        position: absolute;
+        z-index: 3;
+        top: 5px;
+        right: 50px;
+        margin-inline-start: 5%;
+        margin-inline-end: 20%;
+    }
+    
+    .main-product-picture .main-picture {
+        width: 650px;
+        height: 650px;
+        justify-content: center;
+        align-self: center;
+       
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: rotate(341deg);
+    }
+    

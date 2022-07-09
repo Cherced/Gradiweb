@@ -1,0 +1,11 @@
+.pinky-background {
+    width: 45vw;
+    height: 200vh;
+    background: $pinky-red;
+    position: absolute;
+    z-index: 0;
+    box-shadow: 0 1px 6px 0 black;
+    top: 0;
+    right: -250px;
+    transform: skew(7deg);
+}

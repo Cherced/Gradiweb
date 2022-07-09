@@ -1,0 +1,40 @@
+
+
+  footer .title {
+    color: $ligth-green;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+footer .discount {
+    color: whitesmoke;
+    font-size: 1.6rem;
+}
+
+.footer-email {
+    align-items: center;
+}
+
+
+.footer-email input {
+    width: 200px;
+    height: 28px;
+    background-color:#222222;
+    outline: none;
+    border: none;
+}
+
+ footer ::placeholder {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.footer-email a {
+  display: inline-block;
+  text-decoration: none;
+  color:white;
+  background-color: var(--pinky-red);
+  padding: 8.5px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
